@@ -18,7 +18,7 @@ tee ./debian/changelog << EOF
 google-compute-engine-oslogin (1:${version_orig}) stable; urgency=medium
 
   * $latest_commit_message
-  * Detailed changelog an be found at https://github.com/GoogleCloudPlatform/guest-agent/commits/${version_orig}
+  * Detailed changelog an be found at https://github.com/GoogleCloudPlatform/guest-oslogin/commits/${version_orig}
 
  -- $maintainer <$email>  $latest_commit_datetime
 EOF
