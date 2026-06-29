@@ -1,5 +1,5 @@
-version_orig=20250624.00
-version_suffix=gl0
+version_orig=20260605.00
+version_suffix=gl0~bp2150
 
 # Clone upstream repository
 workdir="$(mktemp -d)"
@@ -33,5 +33,7 @@ popd
 
 # Import modified upstream source distribution
 import_src "$workdir"
+
+apply_patches patches
 
 rm -rf "$workdir"
